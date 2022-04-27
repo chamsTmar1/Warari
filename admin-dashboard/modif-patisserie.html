@@ -13,6 +13,7 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
     
@@ -60,7 +61,7 @@
 
 
         <!-- Content Start -->
-        <div class="content">
+        <div class="content"   style="background-image: url('../assets/img/gallery/form_bg.png');">
             <!-- Navbar Start -->
         <nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-0">
                 <a href="#" class="sidebar-toggler flex-shrink-0">
@@ -147,21 +148,44 @@
 
              <!-- Form Start -->
             <div class="container-fluid pt-4 px-4">
-                
+                <div class="container col-md-5">
+                    <div class="card align-self-center" style="margin-top: 5em;">
+                        <div class="card-body bg-light">
+                            <form action="update" method="post">
+                            <caption>
+                                <h3 style="font-family: 'Montserrat';">
+                                    Modifier la pâtisserie
+                                </h3>
+                            </caption>
+            
+                            <fieldset class="form-group">
+                                <label for="nomPatisserie" style="margin-top: 1em;">Nom</label> 
+                                <input type="text"
+                                    value="" class="form-control"
+                                    name="nomPatisserie" required="required">
+                            </fieldset>
+            
+                            <fieldset class="form-group">
+                                <label for="adressePatisserie" style="margin-top: 1em;">Adresse</label> 
+                                <input type="text"
+                                    value="" class="form-control"
+                                    name="adressePatisserie">
+                            </fieldset>
+            
+                            <fieldset class="form-group">
+                                <label for="contactPatisserie" style="margin-top: 1em;">Contact</label> <input type="text"
+                                    value="" class="form-control"
+                                    name="contactPatisserie">
+                            </fieldset>
+            
+                            <button type="submit" class="btn btn-primary" style="margin-top: 1em;">Enregistrer</button>
+                            </form>
+                        </div>
+                    </div>
             </div>
             <!-- Front End -->
 
-            <!-- Footer Start -->
-            <div class="container-fluid pt-4 px-4">
-                <div class="bg-light rounded-top p-4">
-                    <div class="row">
-                        <div class="col-12 col-sm-6 text-center text-sm-start">
-                            &copy; <a href="#">2022 Warari</a>, All Rights Reserved. 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Footer End -->
+            
         </div>
         <!-- Content End -->
     </div>
