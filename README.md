@@ -1,4 +1,4 @@
-# Warari: User-Friendly Wedding Planner
+# Warari 👰🤵: User-Friendly Wedding Planner
 
 ## Overview
 
