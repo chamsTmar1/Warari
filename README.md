@@ -1,11 +1,11 @@
-# Warari 👰🤵: User-Friendly Wedding Planner
+# Warari: User-Friendly Wedding Planner 💐💕
 
 ## Overview
 
-Warari is a wedding planning application designed for brides/grooms to customize their own wedding in the easiest way. The project consists of two main parts accessible through the login/signup page:
+Warari is a wedding planning application designed for brides👰/grooms🤵 to customize their own wedding in the easiest way. The project consists of two main parts accessible through the login/signup page:
 
-- **Admin Part**: Allows administrators to manage users, notebooks, musicians, pastry shops, hairdressers, and other aspects related to wedding planning.
-- **Notebook Part**: Enables brides and grooms to customize their wedding experience through personalized notebooks.
+- **Admin Part**: Allows administrators to manage users👥, notebooks📒, musicians🎶, pastry shops🍰, hairdressers💇‍♀️, and other aspects related to wedding planning.
+- **Notebook Part**: Enables brides👰/grooms🤵 to customize their wedding experience through personalized notebooks📒.
 
 ## Repository Contents
 
